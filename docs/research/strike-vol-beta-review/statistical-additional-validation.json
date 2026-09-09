@@ -1,0 +1,5 @@
+{
+  "day_score_HAC_vs_statsmodels_max_abs_error": 1.734723475976807e-17,
+  "paired_day_bootstrap_vs_literal_refits": "passed for L=1,3,5",
+  "result_script_hash_match": true
+}

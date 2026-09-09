@@ -1,0 +1,44 @@
+{
+  "call_put_average": {
+    "inputs": {
+      "forward": 100.0,
+      "strike": 90.0,
+      "sigma_decimal": 0.3,
+      "tau": 0.25,
+      "forward_error": 0.001
+    },
+    "equal_average_first_order_error_vol_points": -0.19093858135382313,
+    "equal_average_repriced_error_vol_points": -0.19370672369301012,
+    "cancellation_call_weight": 0.2184603924432611,
+    "weighted_first_order_error": 0.0
+  },
+  "timestamp_direction": {
+    "true_iv_vol_points": 30.0,
+    "stale_call_fresh_underlying_iv_vol_points": 27.277361191255324,
+    "fresh_call_stale_underlying_iv_vol_points": 32.731001055998675
+  },
+  "unit_contract": {
+    "beta_dec_per_log_return": 0.4,
+    "beta_vol_points_per_log_return": 40.0,
+    "beta_vol_points_per_one_percent_return": 0.4,
+    "extra_hedge_dollars": -40000.0,
+    "hedge_pnl_per_one_percent_up": -400.0
+  },
+  "ssr_outside_bounds": {
+    "psi_decimal": -0.1,
+    "fixed_strike_beta_decimal": -0.2,
+    "ssr": 3.0000000000000004
+  },
+  "flat_skew": {
+    "psi_decimal": 0.0,
+    "fixed_strike_beta_decimal": 0.1,
+    "ssr": null
+  },
+  "bar_counts_before_endpoint_and_open_filters": {
+    "1": 390,
+    "2": 195,
+    "5": 78,
+    "15": 26,
+    "30": 13
+  }
+}

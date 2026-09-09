@@ -1,0 +1,39 @@
+[project]
+name = "spot-vol-beta"
+version = "0.1.0"
+description = "Timestamp-aware fixed-strike implied-volatility beta research"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "LicenseRef-Proprietary"
+dependencies = [
+    "numpy>=2,<3",
+    "polars>=1.44.1,<2",
+    "statsmodels>=0.15,<0.16",
+]
+
+[project.scripts]
+"spot-vol-beta" = "spot_vol_beta.beta_cli:main"
+"spot-vol-beta-template-ingest" = "spot_vol_beta.cli:main"
+"spot-vol-beta-regression" = "spot_vol_beta.analysis_cli:main"
+"spot-vol-beta-validate" = "spot_vol_beta.time_validation_cli:main"
+"spot-vol-beta-dataset" = "spot_vol_beta.dataset_cli:main"
+
+[build-system]
+requires = ["hatchling==1.32.0"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = ["pyright==1.1.411", "ruff==0.16.5"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 88
+extend-exclude = ["docs/research/strike-vol-beta-review"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+
+[tool.pyright]
+pythonVersion = "3.11"
+typeCheckingMode = "strict"
+include = ["src", "tests"]

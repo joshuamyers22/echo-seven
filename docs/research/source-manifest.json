@@ -1,0 +1,15 @@
+{
+  "strike-vol-beta-review/check_counterexamples.py": "a2ba709711eb96e6f7f3ad00b0e13a8e940db3757e759f2b9dcd14e9543b52c6",
+  "strike-vol-beta-review/counterexample-results.json": "3a1ae192dcedcc7a82b3786b21be4b7536c94d759a026daf160a7ac847307a91",
+  "strike-vol-beta-review/spec-before-review.md": "dddedf709344440b9c3c1948984f61fc48e978ef297bdfdc94622e74fe0ac61c",
+  "strike-vol-beta-review/statistical-additional-validation.json": "d6abc14e0ad46752313df89ceb13bd177f08d3ea33b77c9c1f325b7067b59673",
+  "strike-vol-beta-review/statistical-coverage.csv": "e12c2c9c99560ebac38b3bc3e5b3aa0fd9d1ea6cf5fe360ce1abcf9e83d21ae6",
+  "strike-vol-beta-review/statistical-requirements.txt": "a4efbe6e3e32b9689bc554bd5370afda60664be67e44a85f10c20b9a6cd7f593",
+  "strike-vol-beta-review/statistical-results.json": "19e350047462c4ecb533e99d8d2fe81433e64dad9fab9ab2286a617733d7bf34",
+  "strike-vol-beta-review/statistical-summary.md": "5aac512cd9a64a93ddab63f2336edc54638fd3f8eaf628f4a7602c284cdebb6a",
+  "strike-vol-beta-review/statistical_experiments.py": "958f442cf3b4b29ce882872c8a40e03e63069b40f6b2156a11bacbb1d81a6f95",
+  "strike-vol-beta-review/validate_and_summarize_statistics.py": "17877226420be89f938166295baba12e9dba651f1ea188345b5114a74140a683",
+  "strike-vol-beta-spec-adversarial-review.md": "db105b6e899e0a5bc6d380af5609a10134f949efbbc03a1a558d34d5192d53c0",
+  "strike-vol-beta-spec.md": "b0656a767e573a5e488162df02961ecd85324af49f965b030945787f345a0adb",
+  "strike-vol-beta-statistical-review.md": "a2265a66c61329c1f19aa305452f994d43452817d622ca2a44b3a8f84efe76e6"
+}

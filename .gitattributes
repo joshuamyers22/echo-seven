@@ -1,0 +1,5 @@
+# CSV writers conventionally emit CRLF; Markdown uses intentional hard breaks.
+*.csv whitespace=cr-at-eol
+*.md whitespace=-blank-at-eol
+# Keep archived research byte-identical to its source hash manifest.
+docs/research/** -text
