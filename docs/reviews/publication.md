@@ -23,3 +23,8 @@ all 13 archived research hashes are unchanged. Git diff whitespace checks pass.
 The publication scan checked 119 unique Git blobs across existing history and
 staged changes; no configured secret patterns or restricted data paths were found.
 CI now runs for dev/** pushes as well as main; secret scanning remains enabled.
+
+GitHub's first CI run passed checks, audit and build. The pinned Gitleaks action
+failed before scanning because a multi-commit initial push generated a range
+starting at the nonexistent parent of the root commit. Added workflow_dispatch:
+the pinned action's manual path scans all history without that invalid range.

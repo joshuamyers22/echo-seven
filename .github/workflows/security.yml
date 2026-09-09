@@ -1,5 +1,7 @@
 name: Secret scanning
 on:
+  # Manual runs scan full history, including the initial/root commit.
+  workflow_dispatch:
   pull_request:
   push:
 permissions:
