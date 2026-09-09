@@ -2,7 +2,7 @@ import tempfile
 from pathlib import Path
 from unittest import TestCase
 
-from spot_vol_beta.ingest import load_csv
+from echo_seven.ingest import load_csv
 
 
 class IngestTests(TestCase):

@@ -5,7 +5,7 @@ import math
 from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
-from spot_vol_beta.observations import COLUMNS
+from echo_seven.observations import COLUMNS
 
 
 def generate(destination: Path) -> None:

@@ -2,7 +2,7 @@ from unittest import TestCase
 
 import polars as pl
 
-from spot_vol_beta.regression import fit_simple_ols
+from echo_seven.regression import fit_simple_ols
 
 
 class RegressionTests(TestCase):

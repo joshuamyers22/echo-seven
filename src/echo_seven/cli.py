@@ -9,7 +9,7 @@ from .ingest import load_csv
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(prog="spot-vol-beta")
+    parser = argparse.ArgumentParser(prog="echo-seven")
     parser.add_argument("input", type=Path)
     args = parser.parse_args()
     dataset = load_csv(args.input)

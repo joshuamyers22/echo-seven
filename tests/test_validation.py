@@ -2,7 +2,7 @@ from unittest import TestCase
 
 import polars as pl
 
-from spot_vol_beta.validation import (
+from echo_seven.validation import (
     WalkForwardConfig,
     WalkForwardResult,
     validate_walk_forward,

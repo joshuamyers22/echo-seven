@@ -2,7 +2,7 @@ from datetime import UTC
 from decimal import Decimal
 from unittest import TestCase
 
-from spot_vol_beta.model import Observation, arithmetic_returns
+from echo_seven.model import Observation, arithmetic_returns
 
 
 class ModelTests(TestCase):

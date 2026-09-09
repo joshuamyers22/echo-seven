@@ -1,4 +1,4 @@
-# Spot-vol beta — initial project brief
+# Echo Seven — initial project brief
 
 Owner: J. Myers. Milestone: offline fixed-strike estimation kernel, not live trading.
 

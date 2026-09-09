@@ -97,7 +97,7 @@ def run_replay(
             }
         )
     payload: dict[str, object] = {
-        "schema_version": "spot-vol-beta-evidence/v1",
+        "schema_version": "echo-seven-evidence/v1",
         "asof_utc": asof.isoformat(),
         "code_revision": revision,
         "source_sha256": dataset.source_sha256,
@@ -125,10 +125,10 @@ def operational_event(revision: str, digest: str | None) -> str:
         "schema_version": 1,
         "timestamp": datetime.now(UTC).isoformat(),
         "severity": "INFO" if digest else "ERROR",
-        "event": "spot_vol_beta_evidence_written"
+        "event": "echo_seven_evidence_written"
         if digest
-        else "spot_vol_beta_replay_failed",
-        "service": "spot-vol-beta",
+        else "echo_seven_replay_failed",
+        "service": "echo-seven",
         "environment": "local",
         "release": "0.1.0",
         "revision": (revision.strip() or "unknown")[:128],
@@ -145,7 +145,7 @@ def operational_event(revision: str, digest: str | None) -> str:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description=__doc__, prog="spot-vol-beta")
+    parser = argparse.ArgumentParser(description=__doc__, prog="echo-seven")
     parser.add_argument("input", type=Path)
     parser.add_argument("--output", required=True, type=Path)
     parser.add_argument("--asof", required=True)

@@ -4,9 +4,9 @@ from unittest import TestCase
 
 from test_validation import validation_frame
 
-from spot_vol_beta.evidence import AnalysisDeclaration, SoftwareVersions
-from spot_vol_beta.validation import WalkForwardConfig
-from spot_vol_beta.validation_evidence import (
+from echo_seven.evidence import AnalysisDeclaration, SoftwareVersions
+from echo_seven.validation import WalkForwardConfig
+from echo_seven.validation_evidence import (
     SCHEMA_VERSION,
     build_time_validation_evidence,
 )

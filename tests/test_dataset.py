@@ -9,7 +9,7 @@ from unittest import TestCase
 
 import polars as pl
 
-from spot_vol_beta.dataset import (
+from echo_seven.dataset import (
     DatasetContract,
     DatasetContractError,
     DatasetIntegrityError,

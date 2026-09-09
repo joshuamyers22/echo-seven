@@ -1,4 +1,4 @@
-# Spot-vol beta: initial analysis plan (v1)
+# Echo Seven: initial analysis plan (v1)
 
 Status: preregistered development baseline, synthetic verification only. Owner:
 J. Myers. This plan records the initial implementation contract; changing it

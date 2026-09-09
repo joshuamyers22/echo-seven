@@ -13,11 +13,11 @@ from typing import cast
 from unittest import TestCase
 from unittest.mock import patch
 
-from spot_vol_beta.beta_cli import BetaEvidence, main, publish_evidence, run_replay
-from spot_vol_beta.estimation import estimate_beta
-from spot_vol_beta.hedge import additional_hedge_dollars
-from spot_vol_beta.observations import IvObservation, load_iv_csv, utc_timestamp
-from spot_vol_beta.pairing import (
+from echo_seven.beta_cli import BetaEvidence, main, publish_evidence, run_replay
+from echo_seven.estimation import estimate_beta
+from echo_seven.hedge import additional_hedge_dollars
+from echo_seven.observations import IvObservation, load_iv_csv, utc_timestamp
+from echo_seven.pairing import (
     PairedSeries,
     ReturnPair,
     SamplingPolicy,
@@ -315,7 +315,7 @@ class ReplayTests(TestCase):
             path.write_text("")
             stderr = io.StringIO()
             argv = [
-                "spot-vol-beta",
+                "echo-seven",
                 str(path),
                 "--output",
                 str(path.with_suffix(".json")),

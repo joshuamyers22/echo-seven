@@ -7,7 +7,7 @@ from unittest import TestCase
 
 import polars as pl
 
-from spot_vol_beta.evidence import (
+from echo_seven.evidence import (
     SCHEMA_VERSION,
     AnalysisDeclaration,
     SoftwareVersions,

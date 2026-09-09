@@ -1,5 +1,5 @@
 [project]
-name = "spot-vol-beta"
+name = "echo-seven"
 version = "0.1.0"
 description = "Timestamp-aware fixed-strike implied-volatility beta research"
 readme = "README.md"
@@ -12,11 +12,11 @@ dependencies = [
 ]
 
 [project.scripts]
-"spot-vol-beta" = "spot_vol_beta.beta_cli:main"
-"spot-vol-beta-template-ingest" = "spot_vol_beta.cli:main"
-"spot-vol-beta-regression" = "spot_vol_beta.analysis_cli:main"
-"spot-vol-beta-validate" = "spot_vol_beta.time_validation_cli:main"
-"spot-vol-beta-dataset" = "spot_vol_beta.dataset_cli:main"
+"echo-seven" = "echo_seven.beta_cli:main"
+"echo-seven-template-ingest" = "echo_seven.cli:main"
+"echo-seven-regression" = "echo_seven.analysis_cli:main"
+"echo-seven-validate" = "echo_seven.time_validation_cli:main"
+"echo-seven-dataset" = "echo_seven.dataset_cli:main"
 
 [build-system]
 requires = ["hatchling==1.32.0"]

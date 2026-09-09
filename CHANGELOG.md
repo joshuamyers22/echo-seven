@@ -7,3 +7,4 @@
   and HC3 diagnostics with explicit inference limitations.
 - Add signed-vega hedge conversion, immutable replay evidence and synthetic tests.
 - Preserve prior Moontower-informed research and define the next validation stages.
+- Rename the project, package and commands to Echo Seven for public GitHub publication.

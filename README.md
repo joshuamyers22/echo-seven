@@ -1,4 +1,4 @@
-# Spot-vol beta
+# Echo Seven
 
 Offline research on fixed-strike implied-volatility sensitivity to underlying
 returns. Generated from the local **production-project-template**, using its
@@ -13,12 +13,14 @@ HC3 intervals are not calibrated for intraday dependence.
 
 ## Run locally or on another machine
 
-From a checkout of this repository, with Python/uv available:
+With Python/uv available:
 
 ```sh
+git clone --branch dev/bootstrap https://github.com/joshuamyers22/echo-seven.git
+cd echo-seven
 uv sync --frozen --dev
 make check
-uv run spot-vol-beta data/spot-vol-example.csv \
+uv run echo-seven data/spot-vol-example.csv \
   --asof 2026-01-09T00:00:00Z \
   --analysis-plan docs/STATISTICAL_ANALYSIS_PLAN.md \
   --revision local-bootstrap \
@@ -57,8 +59,8 @@ reviews. The original spec is superseded where it conflicts with the analysis pl
 
 The template supplies strict Pyright, Ruff, unittest, locked dependencies, packaging,
 CI workflows, telemetry schema, evidence utilities and governance documents. Its
-generic examples remain available as `spot-vol-beta-template-ingest`,
-`spot-vol-beta-regression`, `spot-vol-beta-validate` and `spot-vol-beta-dataset`;
+generic examples remain available as `echo-seven-template-ingest`,
+`echo-seven-regression`, `echo-seven-validate` and `echo-seven-dataset`;
 they are reference utilities, separate from the primary replay command above.
 Review [the initial verification record](docs/reviews/bootstrap-verification.md)
 for the evidence and unresolved limits of this milestone.

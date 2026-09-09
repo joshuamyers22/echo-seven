@@ -16,7 +16,7 @@ from .evidence import (
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(prog="spot-vol-beta-regression")
+    parser = argparse.ArgumentParser(prog="echo-seven-regression")
     parser.add_argument("input", type=Path)
     parser.add_argument("--response", required=True)
     parser.add_argument("--predictor", required=True)

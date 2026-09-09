@@ -17,7 +17,7 @@ from .validation_evidence import build_time_validation_evidence
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(prog="spot-vol-beta-validate")
+    parser = argparse.ArgumentParser(prog="echo-seven-validate")
     parser.add_argument("input", type=Path)
     parser.add_argument("--response", required=True)
     parser.add_argument("--predictor", required=True)
